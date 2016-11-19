@@ -8,3 +8,5 @@ will be converted into
 ```bash
 aws s3 ls s3://mybucket/mydir/ --profile myprof
 ```
+
+circleci check
