@@ -11,3 +11,9 @@ will be converted into
 ```bash
 aws s3 ls s3://mybucket/mydir/ --profile myprof
 ```
+
+# install
+```bash
+pip install aws-s3-url2uri
+```  
+and command `aws_s3_url2uri` will be available.

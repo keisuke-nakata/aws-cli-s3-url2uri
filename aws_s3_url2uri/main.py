@@ -39,7 +39,7 @@ def url2uri(url):
 @click.command(context_settings={'ignore_unknown_options': True})
 @click.argument('subcommand', type=click.Choice(['ls', 'rm', 'cp', 'mv', 'sync', 'presign']))
 @click.argument('args', nargs=-1)
-def awscli_s3_url2uri(subcommand, args):
+def aws_s3_url2uri(subcommand, args):
     """Entry point"""
     uried_args = [url2uri(arg) for arg in args]
     command = ['aws', 's3', subcommand] + uried_args
