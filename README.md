@@ -1,5 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/aws-s3-url2uri.svg)](https://badge.fury.io/py/aws-s3-url2uri)
 [![Circle CI](https://circleci.com/gh/keisuke-nakata/aws-cli-s3-url2uri.svg?style=shield&circle-token=d6eef26322de7a44559b42d363878b08e0a20cbf)](https://circleci.com/gh/keisuke-nakata/aws-cli-s3-url2uri)
-
 
 # aws-cli-s3-url2uri
 
